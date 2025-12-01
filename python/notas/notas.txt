@@ -1,0 +1,15 @@
+------------------------------------------------------
+Formato para projectos grandes de python:            |    
+                                                     |       
+mi_proyecto/                                         |   
+├── main.py                                          |   
+├── utils/                                           |   
+│   ├── __init__.py                                  |    
+│   ├── validaciones.py                              |   
+│   └── helpers.py                                   |   
+└── logic/                                           |   
+    ├── __init__.py                                  |
+    └── operaciones.py                               |       
+                                                     |   
+                                                     |
+------------------------------------------------------    

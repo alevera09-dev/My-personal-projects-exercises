@@ -1,0 +1,14 @@
+C:\Users\alesa\c_sharp\sintaxis I\bin\Debug\net9.0\sintaxis I.exe
+C:\Users\alesa\c_sharp\sintaxis I\bin\Debug\net9.0\sintaxis I.deps.json
+C:\Users\alesa\c_sharp\sintaxis I\bin\Debug\net9.0\sintaxis I.runtimeconfig.json
+C:\Users\alesa\c_sharp\sintaxis I\bin\Debug\net9.0\sintaxis I.dll
+C:\Users\alesa\c_sharp\sintaxis I\bin\Debug\net9.0\sintaxis I.pdb
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.AssemblyInfoInputs.cache
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.AssemblyInfo.cs
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.csproj.CoreCompileInputs.cache
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.dll
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\refint\sintaxis I.dll
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.pdb
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\sintaxis I.genruntimeconfig.cache
+C:\Users\alesa\c_sharp\sintaxis I\obj\Debug\net9.0\ref\sintaxis I.dll

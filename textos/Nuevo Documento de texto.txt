@@ -1,0 +1,43 @@
+Tu roadmap ideal y realista (todo gratis, todo con Malan o muy cerca de su estilo):
+
+Termina CS50x (el que estás haciendo ahora) → ya casi lo tienes.
+CS50's Introduction to Programming with Python
+→ Aunque ya sabes Python, hazlo solo las semanas 5–8 (2-3 semanas máximo).
+Refuerzas POO, testing y buenas prácticas sin aburrirte. Salta el resto.
+CS50's Web Programming with Python and JavaScript (opcional pero muy recomendado)
+→ 8-12 semanas.
+Aquí aprendes Flask, SQL, APIs, Git, deploy → todo esto lo vas a usar constantemente cuando hagas proyectos de ML (dashboards, APIs para modelos, datasets en bases de datos, etc.).
+Mucha gente que va a ML se arrepiente de no haberlo hecho antes.
+Álgebra lineal + algo de cálculo y probabilidad (necesario para entender ML de verdad)
+→ El mismo Grok que te dio el roadmap seguro te recomendó cosas buenas, pero te dejo las versiones “Malan-style” (cortas y prácticas):
+Mathematics for Machine Learning: Linear Algebra (Imperial College, Coursera) → 5 semanas, perfecto.
+Mathematics for Machine Learning: Multivariate Calculus (Imperial) → 4 semanas.
+Probability - The Science of Uncertainty and Data (MIT 6.041 en edX) → puedes hacer solo las primeras 6-7 semanas.
+→ Total: 2-3 meses en paralelo o después de Web.
+
+CS50's Introduction to Artificial Intelligence with Python
+→ Este es EL CURSO que te lleva directo a Machine Learning real con proyectos geniales:
+Búsqueda, juegos, NLP, redes neuronales con TensorFlow, visión por computadora, reinforcement learning.
+Todo en 7 semanas intensas.
+Cuando lo termines ya tienes portafolio de 6 proyectos de IA que impresionan en cualquier currículum.
+
+Después del CS50 AI → ya estás listo para cursos serios de ML:
+Andrew Ng - Machine Learning Specialization (Coursera, nuevo 2023-2024) → el clásico actualizado.
+O Fast.ai Practical Deep Learning (gratis, muy hands-on).
+O Deep Learning Specialization (Andrew Ng también).
+
+
+Tiempo total aproximado (si vas constante):
+
+CS50x → ya casi
+CS50P (solo semanas avanzadas) → 2-3 semanas
+CS50 Web (opcional pero vale oro) → 2-3 meses
+Matemáticas → 2-3 meses (puedes hacerlas en paralelo)
+CS50 AI → 2 meses
+Curso serio de ML → 2-4 meses
+
+→ En menos de 12-15 meses estás aplicando a puestos junior de ML o haciendo proyectos que te abren puertas.
+Conclusión: quédate con Malan y la familia CS50.
+Es el camino más divertido, más rápido y más práctico para llegar a Machine Learning sin quemarte con teoría que no vas a usar todavía.
+Cuando termines CS50 AI me avisas y te paso los mejores proyectos para portafolio y cómo seguir a Fast.ai o Andrew Ng sin perder el ritmo. 🔥
+¡A romperla

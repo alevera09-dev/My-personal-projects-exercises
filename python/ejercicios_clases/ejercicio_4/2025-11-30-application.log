@@ -1,0 +1,7 @@
+[2025-11-30 12:54:43] [INFO] Arrancó el servicio
+[2025-11-30 12:54:43] [WARN] CPU al 95% por más de 5 min
+[2025-11-30 12:54:43] [ERROR] Base de datos no responde
+[2025-11-30 12:58:12] [INFO] Servidor iniciado
+[2025-11-30 12:58:12] [WARN] Memoria al 92%
+[2025-11-30 12:58:12] [ERROR] Conexión perdida con Redis
+[2025-11-30 12:58:12] [WARN] Otro warning para que veas duplicado

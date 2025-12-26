@@ -2,30 +2,23 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-typedef struct node_int
+typedef struct node
 {
     int data;
-    struct node_int *next;
-} node_int;
-
-typedef struct node_str
-{
-    char *data;
-    struct node_str *next;
-} node_str;
+    struct node *next;
+} node;
 
 typedef struct
 {
-    node_int *head;
+    node *head;
     size_t len;
 } list;
 
 //methods linked list
-//void printls(node *list, const char newline);
 void insert(list *list, int n);
 bool search(node *list, int n);
-void delete(node *list, int n);
-int len_list(list *list);
+void delete(list *list, int n);
+size_t len_list(list *list);
 void free_list(node *list);
 
 int main(void)
@@ -34,32 +27,26 @@ int main(void)
     if (list_numbers != NULL)
     {
         list_numbers->len = 0;
-        list_numbers->head->next = NULL
+        list_numbers->head = malloc(sizeof(node));
+        list_numbers->head->next = NULL;
     }
 
-    insert(list_numbers, 0);
-
-    //printls(list_numbers, '\n');
-
-    free_list(list_numbers);
-    return 0;
-}
-
-/*
-void printls(list *list, const char newline)
-{
-    if (list->next == NULL)
+    insert(list_numbers, 4);
+    
+    if (search(list_numbers->head, 4))
     {
-        printf("%i", list->data);
-        if(newline == '\n'){printf("\n");}
+        printf("No funciona\n");
     }
     else
     {
-        printf("%i", list->head);
-        if(newline == '\n'){printf("\n");}
-        printls(list->next, newline);
+        printf("Funciona\n");
     }
-}*/
+
+    free_list(list_numbers->head);
+    free(list_numbers);
+
+    return 0;
+}
 
 void insert(list *list, int n)
 {
@@ -70,7 +57,7 @@ void insert(list *list, int n)
     }
     else
     {
-        node_int *new_element = malloc(sizeof(node_int));
+        node *new_element = malloc(sizeof(node));
         new_element->data = n;
         new_element->next = list->head;
         list->head = new_element;
@@ -78,51 +65,72 @@ void insert(list *list, int n)
     }
 }
 
-int len_list(list *list)
+size_t len_list(list *list)
 {
     return list->len;
 }
 
-bool search(node *list, int n)
+bool search(node *head, int n)
 {
-    if (list->data == n)
+    if (head->data == n)
     {
         return true;
     }
     else
     {
-        if (list->next == NULL)
+        if (head->next == NULL)
         {
             return false;
         }
 
-        return search(list->next, n);
+        return search(head->next, n);
     }
 }
 
-void delete(node *list, int n)
+void delete(list *list, int n)
 {
-    if (list->data == n)
-    {
-        free(list);
-        list = NULL;
-    }
-    else
-    {
-        delete(list->next, n);
-    }
+   if (list->head == NULL)
+   {
+        return;
+   }
+
+   node *current = list->head;
+   node *prev = NULL;
+
+   //buscar nodo
+   while (current != NULL && current->data != n)
+   {
+        prev = current;
+        current = current->next;
+   }
+
+   if (current == NULL)
+   {
+        return;
+   }
+
+   if (prev == NULL)
+   {
+        list->head = current->next;
+   }
+   else
+   {
+        prev->next = current->next;
+   }
+
+   free(current);
 }
 
-void free_list(list *list)
+void free_list(node *head)
 {
-    if (list->next == NULL)
+    if (head->next == NULL)
     {
-        delete(list, list->data);
+        free(head);
     }
     else
     {
-        free_list(list->next);
-        delete(list, list->data);
+        free_list(head->next);
+        free(head);
     }
 }
 
